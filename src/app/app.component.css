@@ -1,0 +1,10 @@
+div.navBar{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+}
+
+button{
+    background-color: #2a9df4;
+
+}
