@@ -8,6 +8,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { EvenementenComponent } from './components/evenementen/evenementen.component';
 import { EvenementComponent } from './components/evenement/evenement.component';
+import { CalenderComponent } from './components/calender/calender.component';
+import { OnzeGroepenComponent } from './components/onze-groepen/onze-groepen.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { EvenementComponent } from './components/evenement/evenement.component';
     HomeComponent,
     NavbarComponent,
     EvenementenComponent,
-    EvenementComponent
+    EvenementComponent,
+    CalenderComponent,
+    OnzeGroepenComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
