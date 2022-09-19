@@ -69,3 +69,21 @@ div.navBar{
 .evenementenText {
     margin-left: 1em;
 }
+
+.groepenWrapper {    
+    margin-left: 1em;
+    font-size: 20px;
+}
+
+.groepen {
+    margin-left: 1em;
+}
+
+.groep {
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
+
+.groepContent {
+    margin-left: 1em;
+}
