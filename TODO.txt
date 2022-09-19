@@ -1,0 +1,4 @@
+-make mail actually work
+-add images
+-add phone numbers 
+-add hoofdleiding info
