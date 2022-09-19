@@ -87,3 +87,46 @@ div.navBar{
 .groepContent {
     margin-left: 1em;
 }
+
+.contactWrapper {    
+    margin-left: 1em;
+    font-size: 20px;
+}
+
+input {
+    width: 90em;
+}
+
+textarea {
+    width: 90em;
+    height: 30em;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.mailadres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+form {
+    margin-left: 1em;
+}
+
+form button{
+    width: 5em;
+}
+
+.sendButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 3em;
+}
