@@ -4,10 +4,6 @@ div.navBar{
     column-gap: 1em;
 }
 
-.homePageWrapper{
-    height: 100vh;
-}
-
  .buttonHomePage{
      background-color: darkblue;
      color: white;
@@ -19,25 +15,27 @@ div.navBar{
 
 .home {
     background-image: url("/assets/images/chiroBanner.jpg");
-    height: 100%;
+    height: 100vh;
 }
 
 .navWrapper {
-    position: relative;
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em;
+    background-color: white;  
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #337ab7;
 }
 
 .sticky-nav {
-    position: sticky;
-    top: 0;
     display: flex;
     flex-direction: row;
     width: auto;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .chiroName {
@@ -48,4 +46,26 @@ div.navBar{
 .chiroLabel{
     height: 5em;
     margin-right: 1em;
+}
+
+.evenementenWrapper {    
+    margin-left: 1em;
+    font-size: 20px;
+}
+
+.evenementen {
+    margin-left: 1em;
+}
+
+.evenement {
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
+
+.evenementContent {
+    margin-left: 1em;
+}
+
+.evenementenText {
+    margin-left: 1em;
 }
