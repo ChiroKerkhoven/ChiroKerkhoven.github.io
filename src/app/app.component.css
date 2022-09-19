@@ -3,3 +3,49 @@ div.navBar{
     flex-direction: row;
     column-gap: 1em;
 }
+
+.homePageWrapper{
+    height: 100vh;
+}
+
+ .buttonHomePage{
+     background-color: darkblue;
+     color: white;
+ }
+
+ .buttonHomePage :hover{
+     background-color: darkblue;
+ }
+
+.home {
+    background-image: url("/assets/images/chiroBanner.jpg");
+    height: 100%;
+}
+
+.navWrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.chiroName {
+    font-size: 30px;
+    color: #337ab7;
+}
+
+.chiroLabel{
+    height: 5em;
+    margin-right: 1em;
+}
