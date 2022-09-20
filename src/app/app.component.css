@@ -4,6 +4,11 @@ div.navBar{
     column-gap: 1em;
 }
 
+.logoAndName{
+    display: flex;
+    flex-direction: row;
+}
+
  .buttonHomePage{
      background-color: darkblue;
      color: white;
@@ -13,9 +18,8 @@ div.navBar{
      background-color: darkblue;
  }
 
-.home {
-    background-image: url("/assets/images/chiroBanner.jpg");
-    height: 100vh;
+#backgroundHome{
+    width: 100%;
 }
 
 .navWrapper {
@@ -94,11 +98,11 @@ div.navBar{
 }
 
 input {
-    width: 90em;
+    width: 90%;
 }
 
 textarea {
-    width: 90em;
+    width: 90%;
     height: 30em;
 }
 
@@ -128,7 +132,7 @@ form button{
     display: flex;
     flex-direction: row;
     justify-content: end;
-    margin-right: 3em;
+    margin-right: 10%;
 }
 
 .kalenderWrapper {    
@@ -138,4 +142,32 @@ form button{
 
 .kalenderContent {
     margin-left: 1em;
+}
+
+@media only screen and (max-width: 810px) {
+    ul li {
+        height: 2.3em;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sticky-nav {
+        display: flex;
+        flex-direction: column;            
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chiroName {
+        margin-top: 0.4em;
+        font-size: 16px;
+    }
+
+    #chiroLogo{
+        width: 3em;
+        height: 3em;
+    }
 }
