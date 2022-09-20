@@ -4,6 +4,10 @@ div.navBar{
     column-gap: 1em;
 }
 
+:target {
+    scroll-margin-top: 100px;
+}
+
 .logoAndName{
     display: flex;
     flex-direction: row;
@@ -55,6 +59,7 @@ div.navBar{
 .evenementenWrapper {    
     margin-left: 1em;
     font-size: 20px;
+    border-bottom: 1px solid #337ab7;
 }
 
 .evenementen {
@@ -77,6 +82,7 @@ div.navBar{
 .groepenWrapper {    
     margin-left: 1em;
     font-size: 20px;
+    border-bottom: 1px solid #337ab7;
 }
 
 .groepen {
@@ -95,6 +101,7 @@ div.navBar{
 .contactWrapper {    
     margin-left: 1em;
     font-size: 20px;
+    margin-bottom: 3em;
 }
 
 input {
@@ -138,10 +145,32 @@ form button{
 .kalenderWrapper {    
     margin-left: 1em;
     font-size: 20px;
+    border-bottom: 1px solid #337ab7;
 }
 
 .kalenderContent {
     margin-left: 1em;
+}
+
+footer {
+    background-color: black;
+    border-top: 3px solid #337ab7;
+    color: lightyellow;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+}
+
+.footerContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    width: 2em;
+    align-self: flex-end;
+    margin-bottom: 3em;
+    margin-right: 3em;
 }
 
 @media only screen and (max-width: 810px) {
@@ -169,5 +198,9 @@ form button{
     #chiroLogo{
         width: 3em;
         height: 3em;
+    }
+
+    :target {
+        scroll-margin-top: 230px;
     }
 }
