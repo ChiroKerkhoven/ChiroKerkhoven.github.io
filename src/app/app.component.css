@@ -148,6 +148,10 @@ form button{
     border-bottom: 1px solid #337ab7;
 }
 
+#kalenderImage {
+    width: 30%;
+}
+
 footer {
     background-color: black;
     border-top: 3px solid #337ab7;
