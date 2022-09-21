@@ -98,39 +98,6 @@ div.navBar{
     margin-left: 1em;
 }
 
-.contactWrapper {    
-    margin-left: 1em;
-    font-size: 20px;
-    margin-bottom: 3em;
-}
-
-input {
-    width: 90%;
-}
-
-textarea {
-    width: 90%;
-    height: 30em;
-}
-
-.message {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 1em;
-}
-
-.mailadres {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 1em;
-}
-
-form {
-    margin-left: 1em;
-}
-
 form button{
     width: 5em;
 }
@@ -145,7 +112,6 @@ form button{
 .kalenderWrapper {    
     margin-left: 1em;
     font-size: 20px;
-    border-bottom: 1px solid #337ab7;
 }
 
 footer {
@@ -197,7 +163,7 @@ footer {
     }
 
     :target {
-        scroll-margin-top: 230px;
+        scroll-margin-top: 210px;
     }
 }
 
