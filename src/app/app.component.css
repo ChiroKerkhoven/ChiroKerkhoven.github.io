@@ -135,6 +135,15 @@ footer {
     margin-right: 3em;
 }
 
+.leidingFoto{
+    width: 10em;
+    margin: 1em;
+}
+
+.leidingen{
+    display: flex;
+}
+
 @media only screen and (max-width: 810px) {
     ul li {
         height: 2.3em;
