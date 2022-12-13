@@ -180,4 +180,8 @@ footer {
     #kalenderImage {
         width: 18em;
     }
+
+    .leidingen{
+        flex-direction: column;
+    }
 }
