@@ -164,6 +164,11 @@ footer {
         height: 2.3em;
     }
 
+    .speeltuinWrapper{
+        display: grid;
+    }
+    
+
     .nav {
         display: flex;
         flex-direction: column;
