@@ -112,6 +112,12 @@ form button{
 .kalenderWrapper {    
     margin-left: 1em;
     font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.kalenderContent{
+    display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -141,6 +147,15 @@ footer {
 }
 
 .leidingen{
+    display: flex;
+}
+
+#speeltuin{
+    width: 20em;
+    margin-left: 1em;
+}
+
+.speeltuinWrapper{
     display: flex;
 }
 

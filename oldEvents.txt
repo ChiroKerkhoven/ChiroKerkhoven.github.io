@@ -1,0 +1,40 @@
+ <div class="evenement">
+                <h2>Jeugddag (zaterdag):</h2>
+                <div class="evenementContent">
+                    <h3>-Datum: 22 Okt 2022</h3>
+                    <h3>-Tijd: 13u00 - 17u00</h3>
+                    <h3>-Plaats: Kerkweg 30, Lommel</h3>
+                    <div class="evenementenText">
+                        <p>Op 22 oktober spreken we om 13:00 aan de hemen af.</p>
+                        <p>Vandaar uit rijden we om 13:15 naar het plein bij het stadhuis (nieuwe stadhuis) van Lommel.</p>
+                        <p>Hier zullen we een optocht maken naar de hemen voor de Sahara van Lommel en daar tot 17:00 samen met andere lommelse jeugdbewegingen spelen.</p>
+                        <p>Hiervoor vragen we nog ouders die graag zouden willen/kunnen rijden op die dag zowel heen als terug.</p>
+                        <p>Hiervoor kun je altijd een mailtje sturen. De dag erna is het dan geen chiro.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="evenement">
+                <h2>Eetdag:</h2>
+                <div class="evenementContent">
+                    <h3>-Datum: 06 Nov 2022</h3>
+                    <h3>-Tijd: Heel den dag</h3>
+                    <h3>-Plaats: Kanaalstraat 18, Lommel (Heidegalm)</h3>
+                    <div class="evenementenText">
+                        <p>Een dag waarop heel de Chiro familie samenkomt om lekker wat spaghetti of croque te eten.</p>
+                        <p>Meer informatie hierover volgt nog in brief en mailvorm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="evenement">
+                <h2>Christus koning:</h2>
+                <div class="evenementContent">
+                    <h3>-Datum: 20 Nov 2022</h3>
+                    <h3>-Tijd: 09:00 - 17u00</h3>
+                    <h3>-Plaats: Kerkweg 30, Lommel</h3>
+                    <div class="evenementenText">
+                        <p>Het feest van de Chiro op deze dag houden we een hele dag Chiro.</p>
+                        <p>Beginnend in vroege uren van de ochtend en eindigt om 17:00 zoals andere Chiro dagen.</p>
+                        <p>Ook hierover volgt nog verder informatie via mail/brief.</p>
+                    </div>
+                </div>
+            </div>
