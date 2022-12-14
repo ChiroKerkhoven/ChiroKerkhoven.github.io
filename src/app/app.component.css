@@ -201,6 +201,11 @@ footer {
         width: 18em;
     }
 
+    #speeltuin{
+        width: 18em;
+        margin-left: 1em;
+    }
+
     .leidingen{
         flex-direction: column;
     }
