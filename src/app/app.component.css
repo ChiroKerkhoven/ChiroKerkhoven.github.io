@@ -159,6 +159,13 @@ footer {
     display: flex;
 }
 
+@media only screen and (max-width: 1010px){    
+    .leidingen{
+        flex-direction: column;
+    }
+    
+}
+
 @media only screen and (max-width: 810px) {
     ul li {
         height: 2.3em;
