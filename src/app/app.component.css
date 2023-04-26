@@ -4,6 +4,10 @@ div.navBar{
     column-gap: 1em;
 }
 
+.nav{
+    margin-top: 1em;
+}
+
 :target {
     scroll-margin-top: 100px;
 }
@@ -11,6 +15,7 @@ div.navBar{
 .logoAndName{
     display: flex;
     flex-direction: row;
+    margin-top: 1em;
 }
 
  .buttonHomePage{
@@ -35,6 +40,7 @@ div.navBar{
     position: sticky;
     top: 0;
     border-bottom: 1px solid #337ab7;
+    height: fit-content;
 }
 
 .sticky-nav {
@@ -42,7 +48,6 @@ div.navBar{
     flex-direction: row;
     width: auto;
     margin-left: 1em;
-    margin-top: 1em;
     margin-bottom: 1em;
 }
 
